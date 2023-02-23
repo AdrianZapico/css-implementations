@@ -1,0 +1,41 @@
+.icons-container{
+    background-color: azure;
+    display: inline-flex;
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+    margin-top: 90px;
+    opacity: 0.4;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.grid-container-icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 80px;
+    height: 100px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.icons{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    width:100px ;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.8s;  
+}
+ .icons:hover {
+    background-color: black;
+}
